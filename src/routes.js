@@ -1,9 +1,11 @@
-import { ExamplePage, HomePage } from "./pages";
+import { ExamplePage, HomePage, TransactionsPage, } from "./pages";
 import { routeManifest } from "./routes.manifest";
 
 const routeComponents = {
   ExamplePage,
   HomePage,
+  TransactionsPage,
+  
 };
 
 export const routes = routeManifest.map((route) => {

@@ -18,7 +18,7 @@ const looks = {
 const Wrapper = styled.article`
   display: grid;
   gap: 1rem;
-  min-height: 190px;
+    height: ${({ height }) => height ?? "190px"};
   border-radius: ${({ theme }) => theme.radii.md};
   padding: 1.2rem;
   box-shadow: ${({ theme }) => theme.shadow};
@@ -41,9 +41,9 @@ const Muted = styled.span`
   opacity: 0.76;
 `;
 
-export function AccountCard({ name, number, balance, change, variant }) {
+export function AccountCard({ name, number, balance, change, variant, height }) {
   return (
-    <Wrapper variant={variant}>
+    <Wrapper variant={variant} height={height}>
       <TopLine>
         <strong>{name}</strong>
         <Muted>•• {number}</Muted>
