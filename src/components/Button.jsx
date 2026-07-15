@@ -2,9 +2,9 @@ import styled, { css } from "styled-components";
 
 const variants = {
   primary: css`
-    color: white;
-    background: ${({ theme }) => theme.colors.green700};
-    border-color: ${({ theme }) => theme.colors.green700};
+    color: black;
+    background: white;
+    border-color:black;
   `,
   secondary: css`
     color: ${({ theme }) => theme.colors.green900};
@@ -20,8 +20,11 @@ const variants = {
 
 export const Button = styled.button`
   min-height: 42px;
-  border: 1px solid;
-  border-radius: ${({ theme }) => theme.radii.sm};
+  border:1px solid;
+  border-color: grey;
+  color: #0A2540
+  background: white;
+  border-radius: ${({ theme }) => theme.radii.md};
   padding: 0.7rem 1rem;
   font-weight: 700;
   cursor: pointer;
