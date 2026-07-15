@@ -1,10 +1,5 @@
 export const routeManifest = [
   {
-    path: "/",
-    component: "HomePage",
-    label: "Home",
-  },
-  {
     path: "/example-page",
     component: "ExamplePage",
     label: "Example Page",
@@ -14,4 +9,10 @@ export const routeManifest = [
     component: "TravelMoneyPage",
     label: "Travel Money",
   },
+  {
+    path: "/savings",
+    component: "SavingsPage",
+    label: "Savings",
+  },
+  
 ];

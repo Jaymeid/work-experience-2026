@@ -1,3 +1,3 @@
 export { ExamplePage } from "./ExamplePage";
-export { HomePage } from "./HomePage";
+export { SavingsPage } from "./SavingsPage";
 export { TravelMoneyPage } from "./TravelMoneyPage";
