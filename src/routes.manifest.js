@@ -21,10 +21,5 @@ export const routeManifest = [
     component: "SpendingPage",
     label: "Spending",
     
-  },{
-    path: "/history",
-    component: "HistoryPage",
-    label: "History",
-    
   },
 ];
