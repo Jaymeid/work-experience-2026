@@ -27,6 +27,13 @@ export const transactions = [
   { shop: "Local Cafe", amount: "-£4.80", date: "Today", type: "Food" },
   { shop: "Part-time Pay", amount: "+£120.00", date: "Yesterday", type: "Income" },
   { shop: "Cinema", amount: "-£11.99", date: "Tue", type: "Fun" },
+  { shop: "Costcutter", amount: "-£2.15", date: "Wed", type: "Food" },
+  { shop: "Spotify", amount: "-£9.99", date: "Wed", type: "Entertainment" },
+  { shop: "Trainline", amount: "-£18.40", date: "Thu", type: "Travel" },
+  { shop: "Local Cafe", amount: "-£4.80", date: "Thu", type: "Food" },
+  { shop: "Part-time Pay", amount: "+£120.00", date: "Fri", type: "Income" },
+  { shop: "Cinema", amount: "-£11.99", date: "Fri", type: "Fun" },
+  
 ];
 
 export const features = [
